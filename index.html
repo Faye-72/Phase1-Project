@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script defer src="index.js"></script>
+    <title>MediQCare</title>
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <header id="header-container">
+      <nav id="nav-bar">
+        <div id="logo1">
+          <img src="images/logo2.png" alt="MediQCare-logo" />
+        </div>
+        <div id="nav-titles">
+          <ul>
+            <a href="#">Home</a>
+          </ul>
+          <ul>
+            <a href="#about-us">About us</a>
+          </ul>
+          <ul>
+            <a href="#">Contact us</a>
+          </ul>
+        </div>
+      </nav>
+      <div id="landing-page">
+        <div id="landing-text">
+          <h3>
+            "<span>&nbsp</span>Your most trusted health
+            patner<span>&nbsp</span>"
+          </h3>
+          <h4>
+            <span>Affordable</span
+            >&nbsp|&nbsp<span>Convenient</span>&nbsp|&nbsp&nbsp<span
+              >Quality Healthcare</span
+            >
+          </h4>
+
+          <h4>
+            <img src="images/clock.png" />
+            <p>24hr services!</p>
+          </h4>
+          <h4>Find specialist near you?</h4>
+          <button><a href="#form">Create booking</a> </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="our-services">
+        <div id="serve">
+          <h4>&nbsp|&nbsp<span>Our Services</span></h4>
+          <li id="services">
+            <ul class="consultation">
+              <h4>Medical Services</h4>
+             <li>General Consultations</li> 
+             <li>Antenatal Care</li> 
+              <li>Cancer Screening</li>
+              <li>Vaccines</li>
+            </ul>
+            <ul class="care">
+              <h4>Lab Services</h4>
+             <li>Covid Tests</li> 
+             <li>Full Haemogram</li> 
+              <li>Urinalysis</li>
+              <li>Pregnancy Tests</li>
+            </ul>
+            <ul class="physician">
+             <h4>Pharmacy Services</h4>
+             <li>Antibiotics</li> 
+             <li>Analgesics/Painkillers</li> 
+              <li>Pediatric medication</li>
+              <li>Family Planning e.t.c.</li>
+            </ul>
+            <ul class="vaccine">
+              <h4>Other</h4>
+             <li>Physiotherapy services</li> 
+             <li>Counselling / Psychotherapy Services</li> 
+              <li>Cardiology Services</li>
+              <li>Pediatric Services</li>
+            </ul>
+          </li>
+        </div>
+      </section>
+      <section id="about-us">
+        <div>
+          <h4>&nbsp|&nbsp<span>About us</span></h4>
+          <h4>We believe in professional services for all</h4>
+          <p>
+            We practise professional execution of treatment protocols to our
+            patients to guarantee quality of outcomes. Personalized professional
+            Care is what sets out team apart. We take a lot of pride in our
+            professional care team that translates their knowledge and expertise
+            into quality healthcare for all our patients. Our dedicate staff
+            provide professional care to guarantee customers are comfortable
+            within our clinics and feel less anxious while in the facilities
+          </p>
+        </div>
+      </section>
+ <section id="team">
+       <h4>&nbsp|&nbsp<span>Meet the team</span></h4>
+         <div id="card">
+          <span>
+              <img  src="images/doc-4.jpg" alt="doctor-2" />
+              <p>Mike Mwashume <br/>Physician </p>
+         </span>
+           
+       <span >
+          <img src="images/doctor-2.jpeg" alt="doctor-2" />
+            <p>Patricia Makena</br>General surgeon</p>
+       </span>
+       <span >
+          <img src="images/doctor-1.jpg" alt="doctor-1" />
+            <p>Cindy Mugoya</br>
+            Cardiologist</p>
+            </span>
+
+         </div>
+       
+      </section>
+      <section id="bookings">
+        <div id="booking-form">
+          <h4>&nbsp|&nbsp<span>Contact us</span></h4>
+          <form id="form" method="post">
+            <div>
+              <fieldset>
+              <legend>Type of service:</legend>
+              <input id="physical"type="radio" value="1" />
+              <label for="physical">Physical appointment</label>
+              <input id="home_care"type="radio" value="2" />
+              <label for="home_care">Home based care</label>
+            </fieldset>
+            </div>
+            <div>
+              <label>Full names</label>
+            <input id="fullnames" placeholder="Enter Full Names" />
+            <label> Telephone number: </label>
+            <input id="telephone_number" placeholder="Enter Telephone Number" />
+           <label> Location: </label>
+            <input id="location" placeholder="Enter Location" /> </div>
+             <label>Symptom</label>
+            <textarea
+              id="symptom"
+              placeholder="Tell us how you feel"
+            ></textarea> </br>
+            <div>
+              <button type="submit">Submit</button>
+            </div>
+           
+          </form>
+        </div>
+      </section>
+      <section id="ratings">
+        <div class="results">
+       <h4>#Booking done:</h4>
+        <pre></pre>
+        </div>
+        <!-- <div>
+          <img src="" alt="rating-check" />
+          <button>Like</button>
+        </div> -->
+      </section>
+
+     
+    </main>
+    <footer>
+      <div id="footer">
+        <div id="address">
+          <h4>Physical Address:</h4>
+          <p>
+            MediQCare Clinic HQ <br />
+            71 Park Rd, Mount Kenya <br />
+            Manhatann avenue, <br />
+            Nairobi
+          </p>
+        </div>
+        <div id="summary-services">
+           <h4>Services Offered:</h4>
+          <ul class="services list">
+            <li>medical care</li>
+            <li>emergency</li>
+            <li>therapy</li>
+            <li>surgery</li>
+          </ul>
+        </div>
+        <div id="Social Links">
+           <h4>Follow us on:</h4>
+          <ul>
+            <li>
+              <a href="#">facebook</a>
+            </li>
+            <li>
+              <a href="#">twitter</a>
+            </li>
+            <li>
+              <a href="#">linkedin</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+

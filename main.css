@@ -1,0 +1,186 @@
+html {
+  font-size: 0.9rem;
+  scroll-snap-type: y mandatory;
+  block-size: 100%;
+}
+#header-container,
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+body {
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(231, 187, 231);
+
+  text-transform: uppercase;
+}
+#nav-titles {
+  display: flex;
+  margin-top: 20px;
+}
+
+#nav-titles ul a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 23px;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+ul {
+  list-style: none;
+}
+#logo1 img {
+  width: 250px;
+}
+#landing-page {
+  background-image: url(images/doc-3.jpg);
+  background-size: cover;
+  align-items: center;
+  max-width: 100vw;
+  height: 600px;
+}
+#landing-text {
+  font-style: normal;
+  text-align: left;
+  margin-inline-start: auto;
+  padding-left: 30px;
+  padding-top: 200px;
+  font-style: normal;
+  color: rgb(92, 7, 92);
+}
+#bg-img {
+  max-width: fit-content;
+  min-height: 700px;
+  /* overflow: hidden; */
+}
+h3 {
+  font-size: 2em;
+}
+button {
+  padding: 10px;
+  background-color: rgb(231, 187, 231);
+  border: 0ch;
+  border-radius: 10px;
+  z-index: 15px;
+  font: bold;
+}
+button a {
+  text-decoration: none;
+}
+#services {
+  border-width: inherit;
+  position: relative;
+  justify-content: space-evenly;
+}
+#about-us {
+  display: flex;
+  flex-direction: column;
+  color: rgb(66, 5, 66);
+}
+#our-services {
+  display: flex;
+  flex-direction: column;
+  color: rgb(66, 5, 66);
+}
+#services {
+  display: flex;
+}
+ul.consultation {
+  background-color: rgb(138, 13, 138);
+  padding: 50px;
+}
+/* ul.consultation:hover,
+:focus {
+  transform: scale3d(1.5, 1.5, 1);
+  transition: transform 3s ease-in-out;
+} */
+ul.care {
+  background-color: rgb(245, 89, 242);
+  padding: 50px;
+}
+
+/* ul.care :hover {
+  transform: scale3d(1.5, 1.5, 1);
+  transition: transform 3s ease-in-out;
+} */
+ul.physician {
+  background-color: rgb(199, 123, 199);
+  border: 0ch;
+  padding: 50px;
+}
+/* ul.physician:hover {
+  transform: scale3d(1.5, 1.5, 1);
+  transition: transform 3s ease-in-out;
+} */
+ul.vaccine {
+  background-color: rgb(231, 187, 231);
+  border: 0ch;
+  padding: 50px;
+}
+/* ul.vaccine:hover {
+  transform: scale3d(1.5, 1.5, 1);
+  transition: transform 3s ease-in-out;
+} */
+#form {
+  /* background-color: red;
+  padding: 20px; */
+  max-width: 60rem;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5rem;
+  border-radius: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 90%);
+  display: grid;
+  gap: 10px;
+}
+#form input {
+  border: 0;
+  /* z-index: 1; */
+  background-color: transparent;
+  border-bottom: 2px solid #eee;
+  font: inherit;
+  font-size: 1.125rem;
+  padding: 2rem;
+}
+#form label {
+  justify-items: flex-start;
+  color: #d20ad9;
+  /* position: relative; */
+  top: 0.5srem;
+  /* transition: 0.25s ease; */
+}
+#card img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 100%;
+  /* justify-content: space-evenly; */
+}
+#card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#ratings {
+  margin: 10rem;
+}
+#footer {
+  display: flex;
+  background-color: rgb(138, 13, 138);
+  justify-content: space-between;
+  width: 100vw;
+}
